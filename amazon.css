@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display:flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+}
+.logo{
+    background-image: url("amazon_icon.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* .border{
+    /* border: 1.5px solid transparent;  
+} */
+
+.border:hover {
+    border: 1.5px solid white; 
+}
+
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.searchBar{
+    display: flex; 
+    justify-content: space-evenly;
+    height: 40px;
+    width: 500px;
+    border-radius: 4px;
+    /* background-color: yellow; */
+}
+
+.searchBar:hover{
+    border: 3px solid orange;
+}
+#select{
+    border: none;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+}
+
+#searchAmazon{
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    
+}
+
+.searchIcon{
+
+    background-color: orange;
+    border: none;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+    
+}
+
+.country{
+    display: flex; 
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag{
+    background-image: url("indiaflag.png");
+    background-size:cover;
+    height: 1.4rem;
+    width: 2.2rem;
+    
+}
+
+.desh{
+    height: 25px;
+    width: 39px ;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+span{
+    font-size: 0.75rem;
+}
+
+.nav-second{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.cart{
+    font-size: 0.85rem;
+    margin-top: 18px;
+    font-weight: 700;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    background-color: #106161;
+    color: white;
+    height: 39px ;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.panel-box a{
+    text-decoration: none;
+    color: white;
+    height: 28px;
+    /* line-height: 32px; */
+    
+}
+
+.hero-section{
+    background-image: url("under\ 299.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-text{
+    background-color: white;
+    margin-bottom: 25px;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem; 
+    width: 80%;
+}
+
+.hero-text a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #a9bead;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+}
+
+.box1 h2{
+    text-align: center; 
+    font-size: 21px; 
+    /* margin-top: 1rem; */
+    color: #007185;
+}
+
+
+.box-content{
+      margin-left: 1rem;
+      margin-right: 1rem;
+}
+
+.all{
+      background-image: url("all.jpg");
+      height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+.fruits{
+    background-image: url("fruits.jpg");
+      height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box3 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+.t-shirts{
+    background-image: url("t-shirts.jpg");
+      height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+.bags{
+    background-image: url("bags.jpg");
+      height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+.mobile{
+    background-image: url("vivo\ v30.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box5 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+.border:hover{
+    border: 3px solid white;
+}
+
+.box-content a{
+    color: #007185;
+}
+
+
+.toys1{
+    background-image: url("toys1.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box6 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+
+.shoes{
+    background-image: url("shoes.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box7 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+
+.electronics{
+    background-image: url("electronics-set.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box8 h2{
+    font-size: 21px;
+    text-align: center;
+    color: #007185;
+}
+
+
+
+footer{
+    margin-top: 15px;
+    
+}
+.foot-panel1{
+      background-color: #37475a;
+      height: 50px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.85rem;
+}
+
+.foot-panel2{
+      height: 300px;
+      background-color: #222f3d;
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel3{
+    height: 100px;
+    background-color: #37475a;
+    border-top: 0.1px solid rgb(166, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.amazon-image{
+    height: 65px;
+    width: 9%;
+    background-image: url("amazon_icon.jpg");
+    background-size: cover;
+    margin-right: 50px;
+}
+
+.panel3-box2{
+    border: 1px solid rgb(166, 165, 165);
+    background-color: #37475a;
+    font-size: 13px;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language select{
+    color: white;
+    background-color: #37475a;
+    font-size: 13px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.universe-icon{
+    color: white;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel3-box3{
+    border: 1px solid rgb(166, 165, 165);
+    color: white;
+    font-size: 13px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+
+}
+
+.panel3-box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(166, 165, 165);
+    color: white;
+    font-size: 13px;
+    height: 25px;
+    width: 130px;
+
+
+}
+
+.box4-flag{
+    background-image: url("united\ state\ flag.jpeg");
+    background-size: cover;
+    height: 1rem;
+    width: 1.5rem;
+}
+
+.box4-country{
+    color: white;
+    font-size: 13px;
+}
+
+.foot-panel4{
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    
+    padding-top: 5px;
+
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+}
